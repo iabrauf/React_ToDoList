@@ -34,7 +34,6 @@ const Interval = () => {
     const handleClick = (event: any) => {
         event.preventDefault();
 
-
         if (!!counter) {
             clearInterval(repeatingInterval.current);
             repeatingInterval.current = 0;
